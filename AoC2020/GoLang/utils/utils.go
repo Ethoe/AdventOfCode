@@ -9,7 +9,7 @@ import (
 func ReadFile(file string) (res []string, err error) {
 	res = make([]string, 0)
 
-	f, err := os.Open("AoC2020\\GoLang\\files\\" + file)
+	f, err := os.Open("AoC2020\\files\\" + file)
 	if err != nil {
 		return
 	}

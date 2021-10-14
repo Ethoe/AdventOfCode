@@ -7,12 +7,12 @@ import (
 )
 
 func main() {
-	p1, err := solutions.D2P1()
+	p1, err := solutions.D3P1()
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	p2, err := solutions.D2P2()
+	p2, err := solutions.D3P2()
 	if err != nil {
 		log.Fatal(err)
 	}
